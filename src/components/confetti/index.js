@@ -1,4 +1,4 @@
-import { ButtonBase, makeStyles, useTheme } from "@material-ui/core";
+import { ButtonBase, makeStyles } from "@material-ui/core";
 import cls from "classnames";
 import React, { useCallback, useRef } from "react";
 
@@ -340,8 +340,6 @@ function ConfettiBtn() {
         <div style={{ width: "100%", overflow: "hidden" }}>
           <p
             className={cls(classes.content, classes.contentShowed)}
-            themeColor="white"
-            variant="h6"
           >
             Happy 1st Birthday, Student Suite!
           </p>
