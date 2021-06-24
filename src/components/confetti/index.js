@@ -320,7 +320,7 @@ function ConfettiBtn() {
       return true;
     });
     document.body.append(contentContainer);
-    setTimeout(() => contentContainer.remove(), 4000);
+    setTimeout(() => contentContainer.remove(), 6000);
   }, [classes]);
 
   const handleBtnClick = (e) => {
